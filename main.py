@@ -28,7 +28,7 @@ def score_board():
     score_entry = input("ENTER YOUR NAME TO BE PLACED ON THE LEADERBOARDS: ").upper()
     if score_entry == "Q" or score_entry == "QUIT":
         quit()
-    score_board_add.write(f"\n{score_entry} {str(player_wins)} W/{str(computer_wins)} L/{str(draws)} D")
+    score_board_add.write(f"\n{score_entry} {str(player_wins)}W/{str(computer_wins)}L/{str(draws)}D")
     score_board_add.close()
     score_board_show = open("RPSscoreboard.txt","r")
     print(score_board_show.read())
@@ -37,7 +37,7 @@ def score_board():
 def log_error():
     global score_entry
     log_error_add = open("ErrorLog.txt", "a")
-    log_error_add.write("\nUser "+score_entry+" Had " +str(error_count)+" Errors During Their Play")
+    log_error_add.write(f"\nUser {score_entry} Had {str(error_count)} Errors During Their Play")
 
 # Game Loop
 while playing:
@@ -70,7 +70,7 @@ while playing:
         print("Sorry You Lost :( ")
         replay()
     
-print("You Won "+str(player_wins)+" Time(s), Lost "+str(computer_wins)+" Time(s), And Had " +str(draws)+" Draw(s)!")
+print(f"You Won {player_wins} Time(s), Lost {computer_wins} Time(s), And Had {draws} Draw(s)!")
 score_board()
 log_error()
 print("Thanks For Playing!")
