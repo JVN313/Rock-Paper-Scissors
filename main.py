@@ -28,7 +28,7 @@ def score_board():
     score_entry = input("ENTER YOUR NAME TO BE PLACED ON THE LEADERBOARDS: ").upper()
     if score_entry == "Q" or score_entry == "QUIT":
         quit()
-    score_board_add.write("\n"+score_entry+" "+str(player_wins)+"W"+"/"+str(computer_wins)+"L"+"/"+str(draws)+"D")
+    score_board_add.write(f"\n{score_entry} {str(player_wins)} W/{str(computer_wins)} L/{str(draws)} D")
     score_board_add.close()
     score_board_show = open("RPSscoreboard.txt","r")
     print(score_board_show.read())

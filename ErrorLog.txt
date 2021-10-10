@@ -1,3 +1,4 @@
 ERROR LOG
 User COVINGTON Had 1 Errors During Their Play
 User TEST Had 1 Errors During Their Play
+User KEN Had 0 Errors During Their Play
