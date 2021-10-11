@@ -1,4 +1,5 @@
 import random
+from datetime import datetime
 
 # Game Variables
 playing = True
@@ -36,8 +37,9 @@ def score_board():
 
 def log_error():
     global score_entry
+    time =  datetime.utcnow().strftime('%m/%d/%Y %H:%M:%S')
     log_error_add = open("ErrorLog.txt", "a")
-    log_error_add.write(f"\nUser {score_entry} Had {str(error_count)} Errors During Their Play")
+    log_error_add.write(f"\nUser {score_entry} Had {str(error_count)} Errors During Their Play {time}")
 
 # Game Loop
 while playing:
