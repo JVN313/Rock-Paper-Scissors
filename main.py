@@ -36,10 +36,10 @@ def score_board():
     score_board_show.close()
 
 def log_error():
-    global score_entry
     time =  datetime.utcnow().strftime('%m/%d/%Y %H:%M')
     log_error_add = open("ErrorLog.txt", "a")
     log_error_add.write(f"\nUser {score_entry} Had {str(error_count)} Errors During Their Play {time}")
+    log_error_add.close()
 
 # Game Loop
 while playing:
