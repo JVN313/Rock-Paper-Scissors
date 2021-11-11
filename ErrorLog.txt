@@ -6,3 +6,5 @@ User TEST Had 4 Errors During Their Play 10/11/2021 19:04
 User NEWBIE Had 0 Errors During Their Play 10/26/2021 23:20
 User NEWBIE1 Had 4 Errors During Their Play 10/26/2021 23:26
 User BIG TEST Had 3 Errors During Their Play 11/04/2021 17:27
+User JAE Had 1 Errors During Their Play 11/11/2021 19:47
+User BOB Had 0 Errors During Their Play 11/11/2021 20:26
