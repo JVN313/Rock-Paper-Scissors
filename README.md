@@ -1,7 +1,7 @@
 # Rock-Paper-Scissors
 A simple Rock, Paper, Scissors game that runs in the terminal.
 
-#Feature List
+# Feature List
 -<strong>Master Loop</strong>
 The game has a master loop that allows the player to continuously play until they choose to stop by inputting "Q" or "QUIT"
 
@@ -16,5 +16,5 @@ Different list items are pulled from the list at random to set the computer's ch
 -<strong>Implement a Log that Records Errors</strong>
 There is a "ErrorLog" text file that shows how many invalid inputs a player has made, along with the date.
 
-#Get Started 
+# Get Started 
 To get started simply run the "main.py" file and follow along in the Terminal
